@@ -1,3 +1,4 @@
+
 <%@ page language="java" contentType="text/html; charset=ISO-8859-1"
     pageEncoding="ISO-8859-1"%>
 <!DOCTYPE html>
@@ -7,15 +8,12 @@
 <title>Insert title here</title>
 </head>
 <body>
- 
-<h1>${s}</h1>
-<h1>${l}</h1>
-<h1>${p}</h1>
-<h1>${w}</h1>
-<h1 style="color:green"> ${billing}</h1>
+<h1 style="color:blue">spring boot with java and web developer tools</h1>
+<form action="home2" method="get">
 
-<h1 style="color:red">${err}</h1>
+name:::<input type="text" name="name">
+<input type="submit"> 
+</form>
 
-<h1><a href="/pay" style="color:green">confirm order and pay </a></h1>
 </body>
 </html>

@@ -7,15 +7,6 @@
 <title>Insert title here</title>
 </head>
 <body>
- 
-<h1>${s}</h1>
-<h1>${l}</h1>
-<h1>${p}</h1>
-<h1>${w}</h1>
-<h1 style="color:green"> ${billing}</h1>
-
-<h1 style="color:red">${err}</h1>
-
-<h1><a href="/pay" style="color:green">confirm order and pay </a></h1>
+<h1><h2 style="color: green">${name}</h2> entered into new jsp page</h1>
 </body>
 </html>

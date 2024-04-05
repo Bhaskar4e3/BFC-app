@@ -7,15 +7,8 @@
 <title>Insert title here</title>
 </head>
 <body>
- 
-<h1>${s}</h1>
-<h1>${l}</h1>
-<h1>${p}</h1>
-<h1>${w}</h1>
-<h1 style="color:green"> ${billing}</h1>
-
-<h1 style="color:red">${err}</h1>
-
-<h1><a href="/pay" style="color:green">confirm order and pay </a></h1>
+<h1 style="color:gray"><b style="color:orange">${name1}</b> your order is successful and thank you </h1>
+<h2 style="color:blue"> please visit again</h2>
+<a href="/home">go to menu</a>
 </body>
 </html>
